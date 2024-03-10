@@ -226,13 +226,13 @@
                                 <p class="contact_data" id="email">email@gmail.com</p>
                             </div>
                         </div>
-                        <div class="contB-2" id="contact-form" onSubmit="handleForm()">
+                        <form class="contB-2" id="contact-form" onSubmit="handleForm()">
                             <p>Форма обратной связи</p>
-                            <input type="text" class="tags" id="contact_name" placeholder="Как к Вам обращаться">
-                            <input type="text" class="tags" id="contact_email" placeholder="Ваша почта, для ответа">
-                            <textarea type="text" class="tags" id="contact_text" placeholder="Ваш вопрос или предложение"></textarea>
+                            <input type="text" class="tags" name="contact_name" placeholder="Как к Вам обращаться">
+                            <input type="email" class="tags" name="contact_email" placeholder="Ваша почта, куда я отвечу">
+                            <textarea type="text" class="tags" name="contact_message" placeholder="Ваш вопрос или предложение"></textarea>
                             <input type="submit" class="tags" id="send_tags" value="Отправить">
-                        </div>
+                        </form>
                     </li>
                 </div>
             </div>
