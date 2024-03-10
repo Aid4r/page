@@ -226,12 +226,12 @@
                                 <p class="contact_data" id="email">email@gmail.com</p>
                             </div>
                         </div>
-                        <div class="contB-2" id="contactForm">
+                        <div class="contB-2" id="contact-form" onSubmit="handleForm()">
                             <p>Форма обратной связи</p>
                             <input type="text" class="tags" id="contact_name" placeholder="Как к Вам обращаться">
                             <input type="text" class="tags" id="contact_email" placeholder="Ваша почта, для ответа">
                             <textarea type="text" class="tags" id="contact_text" placeholder="Ваш вопрос или предложение"></textarea>
-                            <a href="" class="tags" id="send_tags">Отправить</a>
+                            <input type="submit" class="tags" id="send_tags" value="Отправить">
                         </div>
                     </li>
                 </div>
@@ -258,22 +258,6 @@
                 </div>
             </div>
         </footer>
-
-    <form id="contact-form" onSubmit="handleForm()">
-      <label for="fullname">Fullname</label>
-      <input type="text" name="from_name" />
-      <br/><br/>
-
-      <label for="email">Your Email</label>
-      <input type="email" name="from_email"/>
-      <br/><br/>
-
-      <label for="subject">Message</label>
-      <textarea name="message"></textarea>
-      <br/><br/>
-
-      <input type="submit" value="Send"/>
-    </form>
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
