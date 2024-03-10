@@ -853,6 +853,7 @@ input:checked + #view_button {
         content: "phone";
 }   #email:before {
         content: "email";
+        padding-bottom: 1%;
 }   @media only screen and (max-width: 768px) {
     #place {
         width: 34%;
