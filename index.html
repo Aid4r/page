@@ -20,7 +20,18 @@
         <link href="static/styles_ru.css" rel="stylesheet">
 </head>
 
-
+            <script>
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
+    emailjs.sendForm('service_4i9d1em', 'template_756zsla', this)
+        .then(function() {
+            alert('Сообщение успешно отправлено!');
+        }, function(error) {
+            alert('Ошибка отправки: ' + error);
+        });
+});
+</script>
+        
         <!-- Web page tittle -->
         <title>Портфолио | Айдар Бураканов</title>
 
@@ -268,16 +279,6 @@
     <textarea name="message"></textarea>
     <input type="submit" value="Отправить">
 </form>
-            <script>
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
-    emailjs.sendForm('service_4i9d1em', 'template_756zsla', this)
-        .then(function() {
-            alert('Сообщение успешно отправлено!');
-        }, function(error) {
-            alert('Ошибка отправки: ' + error);
-        });
-});
-</script>
+
     </body>
 </html>
