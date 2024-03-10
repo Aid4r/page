@@ -902,7 +902,7 @@ input:checked + #view_button {
         color: rgba(34, 34, 34, 1);
 }
 
-#contact_text {
+#contact_message {
     background-image: none;
     display: block;
     height: 15vh;
@@ -910,7 +910,7 @@ input:checked + #view_button {
     min-height: 5vh;
     max-height: 48vh;
     width: 100%;
-}   #contact_text:hover {
+}   #contact_message:hover {
         background-color: white;
         color: rgba(34, 34, 34, 1);
     }
