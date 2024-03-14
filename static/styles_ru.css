@@ -663,7 +663,15 @@ header {
     margin-right: 8px;
 }
 
-end_arrow {
+.end_arrow {
+    margin-right: 12px;
+}    @media only screen and (max-width: 768px) {
+    .end_arrow {
+        display: none;
+        }
+    }
+
+.start_arrow {
     margin-left: 12px;
 }    @media only screen and (max-width: 768px) {
     .end_arrow {
