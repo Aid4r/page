@@ -674,7 +674,7 @@ header {
 .start_arrow {
     margin-left: 12px;
 }    @media only screen and (max-width: 768px) {
-    .end_arrow {
+    .start_arrow {
         display: none;
         }
     }
