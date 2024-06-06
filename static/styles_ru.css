@@ -751,14 +751,14 @@ input:checked + #view_button {
     width: 100%;
 }
 
-#select_view1:checked ~ #web_format {
+#select_view2:checked ~ #web_format {
     display: block;
     padding-top: 64px;
     position: relative;
     width: 100%;
 }
 
-#select_view2 ~ #stnd_format {
+#select_view1 ~ #stnd_format {
     display: none;
 }
 
