@@ -612,6 +612,13 @@ header {
         }
 }
 
+#add_edu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .soft_gallery {
     display: flex;
     flex-wrap: wrap;
