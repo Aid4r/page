@@ -593,7 +593,7 @@ header {
     border: 1px solid rgba(34, 34, 34, 1);
     border-radius: 12px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 85%;
     margin: 4px 2px;
     padding: 6px 8px;
     transition: all 0.3s ease-in-out;
